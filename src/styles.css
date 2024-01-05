@@ -1,7 +1,6 @@
 /**
 * CSS file to hold styles that apply across the application
 */
-
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Montserrat:wght@200;400;600;800&display=swap");
 
 html,
@@ -122,4 +121,10 @@ a:hover {
 img.socialIcon {
   height: 30px;
   width: 30px;
+}
+
+/* añada una animación fantastica al icono social*/
+img.socialIcon:hover {
+  animation: bounce 0.5s;
+  animation-iteration-count: infinite;
 }
